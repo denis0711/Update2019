@@ -6,6 +6,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 
+
 namespace SalesWebMvc.Controllers
 {
     public class HomeController : Controller
@@ -17,7 +18,9 @@ namespace SalesWebMvc.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Your application description page.";
+            ViewData["Message"] = "Salles Web App from C# Course";
+            ViewData["Facebook"] = "FACEBOOK decasobrenarutal@gmail.com";
+
 
             return View();
         }
